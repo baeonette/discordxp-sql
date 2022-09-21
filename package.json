@@ -1,0 +1,25 @@
+{
+  "name": "discordxp-sql",
+  "version": "1.0.0",
+  "description": "Simple Discord XP system using a SQLite database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord.js",
+    "discord",
+    "xp",
+    "discord-levels",
+    "discord-xp",
+    "sql",
+    "sqlite",
+    "sequelize"
+  ],
+  "author": "baeonette",
+  "license": "MIT",
+  "dependencies": {
+    "sequelize": "^6.23.0",
+    "sqlite3": "^5.1.1"
+  }
+}
