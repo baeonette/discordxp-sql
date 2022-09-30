@@ -38,7 +38,7 @@ var leveler = new Leveler({
 
 BotClient.on('messageCreate', async (message) => {
 
-    leveler.handleLevel(message, 500).then(async (lvl) => {
+    leveler.handleLevel(message, 3.7).then(async (lvl) => {
         if (lvl) {
             leveler.setLevelUpMessage('{user} reached level {level}!')
             await leveler.levelUp(lvl, message);

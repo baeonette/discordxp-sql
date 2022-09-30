@@ -360,7 +360,6 @@ module.exports = class Leveling extends Logic {
         var image;
         await this.client.channels.cache.get(`${channelId}`).send({ files: [img] }).then((msg) => {
             image = msg.attachments.map((img) => img)[0];
-            msg.delete();
         });
 
         return {
